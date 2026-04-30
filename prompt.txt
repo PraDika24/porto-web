@@ -1,0 +1,52 @@
+buatkan issue.md yang berisi perencanaan untuk nanti di implementasikan oleh junior programmer atau ai model yang lebih murah.
+
+Isi dari perencanaannya sebagai berikut :
+
+Tambahkan efek visual dan audio agar terasa seperti game RPG.
+
+Buatkan saya Nav Bar dengan style sebagai berikut:
+- Sidebar berada di sebelah kiri
+- Sidebar tidak selalu tampil, melainkan muncul ketika tombol (breadcrumb / hamburger) diklik
+- stylenya seperti developer (NeoVim + cyber style)
+- mendukung konsep gamifikasi (RPG portfolio)
+Navbar ini akan digunakan sebagai navigasi utama pada website portofolio.
+
+Spesifikasi LayOut:
+- Sidebar dalam kondisi hidden
+- Hanya tampil tombol toggle (hamburger)
+
+Saat aktif:
+- Sidebar muncul dari kiri (slide-in)
+- tambahkan efek animasi yang smooth
+
+Tema:
+- Bisa Gelap dan Terang
+- Dengan Font Monospace (Fira Code / JetBrains Mono)
+
+
+Nama website nya PraDika.dev
+
+Menu pada Sidebar:
+- Home
+- About Me
+- Skills
+- Projects
+- Activity
+- Terminal
+- Contact
+
+Tambahkan Tombol DarkMode/Light Mode dengan style:
+- Berbentuk Round
+- Top Navbar (kanan atas)
+
+
+
+Mainkan sound saat:
+- Klik tombol hamburger
+- Klik menu sidebar
+- Klik tombol close
+- Klik menu yang ada di sidebar
+- Klik tombol darkMode/lightMode
+
+
+Tambahkan Cursor terlihat unik tapi tetap usable
