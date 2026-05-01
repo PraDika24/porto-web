@@ -5,6 +5,7 @@ import TopBar from "@/components/TopBar";
 import Sidebar from "@/components/Sidebar";
 import CustomCursor from "@/components/CustomCursor";
 import ParticlesBg from "@/components/ParticlesBg";
+import LoadingBar from "@/components/LoadingBar";
 
 export const metadata: Metadata = {
   title: "PraDika.dev",
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen flex flex-col antialiased">
         <ThemeProvider>
+          <LoadingBar />
           <ParticlesBg />
           <CustomCursor />
           <TopBar />

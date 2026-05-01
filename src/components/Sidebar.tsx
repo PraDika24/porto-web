@@ -99,6 +99,7 @@ export default function Sidebar() {
                         id={`nav-${item.label.toLowerCase().replace(/\s/g, '-')}`}
                         onClick={handleMenuClick}
                         className={clsx(
+                          'sidebar-menu-item',
                           'group flex items-center gap-3 px-3 py-2.5 rounded-md',
                           'font-mono text-sm transition-all duration-200',
                         )}
