@@ -286,9 +286,11 @@ body {
    MAIN CONTENT AREA
    ============================================================ */
 .main-content {
+  position: relative;
+  z-index: 1;
   padding-top: 56px; /* height of topbar */
   min-height: 100vh;
-  background-color: var(--bg-primary);
+  background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
@@ -319,4 +321,36 @@ body {
 ::selection {
   background: rgba(57, 255, 20, 0.2);
   color: var(--cyber-green);
+}
+
+/* ============================================================
+   SIDEBAR — RESPONSIVE
+   ============================================================ */
+/* On small screens the sidebar takes full width */
+@media (max-width: 480px) {
+  .sidebar-panel {
+    width: 100vw !important;
+  }
+}
+
+/* Sidebar text adapts to theme */
+.sidebar-menu-item {
+  color: var(--text-secondary);
+}
+
+.sidebar-brand {
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+/* Light mode sidebar text is dark enough to read */
+:root .sidebar-meta {
+  color: var(--text-secondary);
+}
+
+/* ============================================================
+   LOADING BAR
+   ============================================================ */
+.loading-bar-glow {
+  box-shadow: 0 0 8px currentColor, 0 0 16px currentColor;
 }
