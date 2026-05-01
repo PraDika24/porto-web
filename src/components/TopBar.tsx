@@ -41,12 +41,8 @@ export default function TopBar() {
         <Menu className="w-5 h-5" />
       </button>
 
-      {/* Center: Brand */}
-      <div className="flex-1 flex items-center justify-center">
-        <span className="font-mono text-sm font-semibold tracking-widest topbar-brand">
-          PraDika<span className="text-cyber-green">.dev</span>
-        </span>
-      </div>
+      {/* Center: Brand (Hidden as requested) */}
+      <div className="flex-1" />
 
       {/* Right: Dark/Light mode toggle */}
       <button

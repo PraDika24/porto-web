@@ -101,13 +101,8 @@ export default function Sidebar() {
                         className={clsx(
                           'group flex items-center gap-3 px-3 py-2.5 rounded-md',
                           'font-mono text-sm transition-all duration-200',
-                          'sidebar-menu-item'
                         )}
                       >
-                        {/* Line number / shortcut */}
-                        <span className="sidebar-shortcut text-xs w-5 shrink-0 opacity-40 group-hover:opacity-100 transition-opacity">
-                          {item.shortcut}
-                        </span>
                         <Icon className="w-4 h-4 shrink-0 sidebar-icon" aria-hidden="true" />
                         <span className="truncate">{item.label}</span>
                         {/* NeoVim-style cursor indicator on hover */}
